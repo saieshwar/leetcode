@@ -9,7 +9,7 @@ class Solution {
         int max = Integer.MIN_VALUE;
         for(end = 0; end < s.length();end++){
             charCount[s.charAt(end)-'A']++;
-             maxCharCount = Math.max(maxCharCount,charCount[s.charAt(end)-'A']);
+             maxCharCount = Math.max(maxCharCount,charCount[s.charAt(end)-'A']);// it will cal which char is max
                  while(end-start+1-maxCharCount>k){
                      charCount[s.charAt(start)-'A']--;
                      start++;
