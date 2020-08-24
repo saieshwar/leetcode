@@ -15,7 +15,7 @@ class Solution {
             if(power2>power1){
                 ans[index--] = power2;
                 end--;
-            }
+            }
             else{
                 ans[index--] = power1;
                 start++;
